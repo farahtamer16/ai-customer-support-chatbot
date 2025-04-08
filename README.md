@@ -1,13 +1,4 @@
----
-title: Ai Chatbot
-emoji: 📚
-colorFrom: yellow
-colorTo: gray
-sdk: streamlit
-sdk_version: 1.44.1
-app_file: app.py
-pinned: false
-license: mit
----
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+
+You can try the chatbot here:  
+👉 [Click to open in Hugging Face Spaces](https://huggingface.co/spaces/farah1310/ai-chatbot)
