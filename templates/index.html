@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Customer Support Assistant</title>
+
+    <!-- Link to external CSS for styling -->
+    <link rel="stylesheet" href="/static/style.css">
+
+    <!-- Link to Google Fonts for better typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Script to handle language selection -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const langSelect = document.getElementById("lang-select");
+            langSelect.addEventListener("change", function () {
+                // Send the selected language to the server
+                fetch("/set_language", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({ language: langSelect.value })
+                });
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="page-container">
+        <!-- Header with title and language selector -->
+        <header class="header">
+            <h1>AI Customer Support Assistant</h1>
+            <p>Choose your language and ask your question below</p>
+
+            <!-- Language selection dropdown -->
+            <div class="language-selector">
+                <label for="lang-select">Language:</label>
+                <select id="lang-select">
+                    <option value="en" selected>English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                    <option value="ar">Arabic</option>
+                    <option value="de">German</option>
+                    <option value="zh">Chinese</option>
+                    <option value="hi">Hindi</option>
+                    <option value="pt">Portuguese</option>
+                    <option value="it">Italian</option>
+                    <option value="ja">Japanese</option>
+                </select>
+            </div>
+        </header>
+
+        <!-- Main chat area -->
+        <main>
+            <div class="chat-container">
+                <!-- Chat messages will appear here -->
+                <div id="chat-box" class="chat-box">
+                    <!-- Initial welcome message from the bot -->
+                    <div class="bot-message">
+                        Hello! I’m your AI support assistant. How can I assist you today?
+                    </div>
+                </div>
+
+                <!-- User input field and Send button -->
+                <div class="input-area">
+                    <input type="text" id="user-input" placeholder="Type your message here...">
+                    <button id="send-btn">Send</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Link to external JavaScript file for chatbot interaction logic -->
+    <script src="/static/script.js"></script>
+</body>
+</html>

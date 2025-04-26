@@ -1,0 +1,85 @@
+# AI Customer Support Chatbot
+
+Welcome to the AI Customer Support Assistant project!  
+This intelligent chatbot can:
+- Detect user sentiment (positive, neutral, empathetic),
+- Recognize user intents (e.g., refund requests, login issues, FAQs),
+- Adapt its conversational tone,
+- Automatically fall back to OpenRouter API for complex queries,
+- Support multiple languages via live translation.
+
+---
+
+## 🚀 How to Run the Project
+
+### 1. Clone the Repository
+
+git clone https://github.com/farahtamer16/ai-customer-support-chatbot.git
+cd ai-customer-support-chatbot
+
+### 2. Create and Activate a Virtual Environment
+
+python -m venv venv
+
+# Windows
+venv\Scripts\activate
+
+# Mac/Linux
+source venv/bin/activate
+
+### 3. Install Dependencies
+
+pip install -r requirements.txt
+
+### 4. Set Up Environment Variables
+Create a .env file in the root folder with the following (or use your own OpenRouterAPI key):
+
+OPENROUTER_API_KEY=ssk-or-v1-2536847ab2bdb0228bab12a61eb4265f1ad8a04d8ef50c62f6f67455d6768dbd (temporarily available key)
+SITE_URL=http://localhost:5000
+SITE_NAME=AI Customer Support
+
+### 5. Run the Flask Application
+
+python app.py
+
+The app will start at:
+http://localhost:5000
+
+Open it in your web browser.
+
+### 🌟 Features Overview
+💬 Multi-language support (auto translation)
+
+🤖 Adaptive tone replies (empathetic, positive, neutral)
+
+🔍 Intent recognition for better query understanding
+
+📚 FAQ matching fallback if OpenRouter fails
+
+🔒 Session management using Flask sessions
+
+📈 Sentiment trend tracking for future personalization (UserProfiles module)
+
+### 🛠 Future Improvements
+Add persistent database storage for user profiles
+
+Fine-tune transformer-based sentiment models
+
+Implement conversation analytics dashboard
+
+Real-time monitoring for API fallbacks
+
+### 🤝 Acknowledgments
+OpenRouter.ai (for API integration)
+
+Huggingface and Deepseek models (fallback models)
+
+TranslatePy for language translation
+
+Scikit-learn for intent recognition and FAQ matching
+
+### 📬 Contact
+
+If you have any questions or suggestions, feel free to open an issue or reach out!
+
+⚠️ Note: Minor warnings related to scikit-learn version differences may appear when loading ML models. These warnings are harmless and do not affect chatbot functionality.

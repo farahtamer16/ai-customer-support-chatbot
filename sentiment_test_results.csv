@@ -1,0 +1,39 @@
+Sentence,Expected Tone,Detected Tone,Match
+I'm really upset and angry about this issue.,empathetic,empathetic,✅
+"Everything works perfectly, I'm so happy!",positive,positive,✅
+Thank you so much for your help!,positive,positive,✅
+I can't believe this is happening again!,empathetic,empathetic,✅
+Best customer service experience ever!,positive,positive,✅
+This is so frustrating.,empathetic,empathetic,✅
+"I'm fine with it, no worries.",neutral,empathetic,❌
+You guys are terrible.,empathetic,empathetic,✅
+Love the new update!,positive,positive,✅
+It's okay I guess.,neutral,neutral,✅
+I hate the way this was handled.,empathetic,empathetic,✅
+Amazing customer support experience!,positive,positive,✅
+Why does this always break?,empathetic,neutral,❌
+Thanks for the quick fix!,positive,positive,✅
+Nothing but problems lately.,empathetic,empathetic,✅
+Appreciate all the effort you put in!,positive,positive,✅
+Can't stand how glitchy this is.,empathetic,neutral,❌
+Super happy with the new design!,positive,positive,✅
+Another crash... unbelievable.,empathetic,neutral,❌
+"Very smooth process, thank you!",positive,positive,✅
+Beyond disappointed at the delay.,empathetic,empathetic,✅
+Great update overall!,positive,positive,✅
+Not very impressed with the latest patch.,empathetic,positive,❌
+Extremely grateful for your fast response!,positive,positive,✅
+Furious about the repeated mistakes.,empathetic,empathetic,✅
+Thanks a lot for helping me out!,positive,positive,✅
+This is very frustrating and unacceptable.,empathetic,empathetic,✅
+Nice work on the latest release!,positive,positive,✅
+Still experiencing so many bugs.,neutral,empathetic,❌
+Feeling good about the changes.,empathetic,positive,❌
+I don't understand why it keeps failing.,positive,neutral,❌
+Loving the improvements lately!,empathetic,positive,❌
+Seriously tired of these issues.,positive,empathetic,❌
+Thanks for making this easy!,empathetic,positive,❌
+Everything went wrong again...,positive,positive,✅
+Pleased with how everything turned out.,empathetic,neutral,❌
+Disappointed with your service.,positive,empathetic,❌
+You did a wonderful job!,empathetic,positive,❌

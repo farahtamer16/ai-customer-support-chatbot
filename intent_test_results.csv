@@ -1,0 +1,101 @@
+Query,Expected Intent,Detected Intent,Match
+I want a refund for my last order,request_refund,request_refund,✅
+Can I get my money back please,request_refund,request_refund,✅
+I need to return this item,request_refund,request_refund,✅
+How can I ask for a refund?,request_refund,request_refund,✅
+Give me a refund immediately,request_refund,request_refund,✅
+Refund my purchase,request_refund,request_refund,✅
+I need a refund ASAP,request_refund,request_refund,✅
+Where do I request a refund?,request_refund,request_refund,✅
+"The product was wrong, refund me",request_refund,request_refund,✅
+"I was overcharged, refund please",request_refund,request_refund,✅
+I forgot my password,login_issue,login_issue,✅
+I can't log into my account,login_issue,login_issue,✅
+I need help resetting my password,login_issue,login_issue,✅
+Password reset not working,login_issue,login_issue,✅
+I can't remember my login credentials,login_issue,login_issue,✅
+How do I reset my password?,login_issue,guidance_request,❌
+Forgot my login password,login_issue,login_issue,✅
+Can't sign in to the app,login_issue,login_issue,✅
+Trouble logging in,login_issue,login_issue,✅
+Lost my password,login_issue,login_issue,✅
+Where is my order?,track_order,track_order,✅
+Track my order please,track_order,track_order,✅
+Can you check my shipment?,track_order,track_order,✅
+Track my package,track_order,track_order,✅
+What's the status of my order?,track_order,track_order,✅
+When will my order arrive?,track_order,track_order,✅
+Order tracking information please,track_order,track_order,✅
+Where is my package?,track_order,request_refund,❌
+Help me track my delivery,track_order,guidance_request,❌
+Check my order status,track_order,track_order,✅
+Cancel my subscription please,cancel_request,cancel_request,✅
+Cancel my order now,cancel_request,track_order,❌
+I want to unsubscribe,cancel_request,cancel_request,✅
+Cancel this service,cancel_request,cancel_request,✅
+How do I cancel?,cancel_request,guidance_request,❌
+Stop my subscription immediately,cancel_request,cancel_request,✅
+Cancel my membership,cancel_request,cancel_request,✅
+End my account subscription,cancel_request,cancel_request,✅
+Cancel the order I made,cancel_request,track_order,❌
+"I changed my mind, cancel it",cancel_request,general_inquiry,❌
+Thank you so much!,gratitude,gratitude,✅
+Thanks a lot for your help,gratitude,gratitude,✅
+Appreciate the quick response!,gratitude,gratitude,✅
+I’m grateful for the support,gratitude,gratitude,✅
+Thanks for the information,gratitude,gratitude,✅
+Thank you for your assistance,gratitude,gratitude,✅
+Many thanks,gratitude,gratitude,✅
+Thank you very much!,gratitude,gratitude,✅
+Really appreciate it,gratitude,gratitude,✅
+Thank you for resolving this,gratitude,gratitude,✅
+How do I update my email address?,guidance_request,guidance_request,✅
+Help me change my account settings,guidance_request,guidance_request,✅
+How can I edit my profile?,guidance_request,guidance_request,✅
+Guide me on how to reset my password,guidance_request,guidance_request,✅
+How do I change my payment method?,guidance_request,guidance_request,✅
+How to delete my account?,guidance_request,guidance_request,✅
+What should I do to recover my account?,guidance_request,guidance_request,✅
+Can you help me with setting up my account?,guidance_request,guidance_request,✅
+Instructions to update billing info?,guidance_request,guidance_request,✅
+I need help with password recovery,guidance_request,login_issue,❌
+There’s a billing issue with my card,payment_issue,payment_issue,✅
+I was charged twice,payment_issue,payment_issue,✅
+Payment failed during checkout,payment_issue,payment_issue,✅
+There's a problem with my invoice,payment_issue,general_inquiry,❌
+Credit card was declined,payment_issue,payment_issue,✅
+Incorrect amount charged,payment_issue,request_refund,❌
+Help with billing error,payment_issue,payment_issue,✅
+I paid but order not confirmed,payment_issue,general_inquiry,❌
+Payment not processed,payment_issue,payment_issue,✅
+Issue with subscription billing,payment_issue,cancel_request,❌
+My app keeps crashing,bug_report,bug_report,✅
+I'm getting a system error,bug_report,bug_report,✅
+The app froze on the login page,bug_report,bug_report,✅
+Error message popping up,bug_report,bug_report,✅
+Your website crashed,bug_report,bug_report,✅
+The app is very buggy,bug_report,bug_report,✅
+I found a glitch,bug_report,bug_report,✅
+The update broke the app,bug_report,account_update,❌
+Major crash when opening app,bug_report,bug_report,✅
+Serious technical issues happening,bug_report,bug_report,✅
+I need to update my profile info,account_update,account_update,✅
+How do I change my username?,account_update,guidance_request,❌
+Update my account details,account_update,account_update,✅
+Change my email address,account_update,account_update,✅
+I want to update my settings,account_update,account_update,✅
+Modify my account information,account_update,account_update,✅
+Update billing address,account_update,account_update,✅
+Change my contact information,account_update,cancel_request,❌
+Need to update my password,account_update,login_issue,❌
+How can I edit my profile picture?,account_update,guidance_request,❌
+hi,general_inquiry,general_inquiry,✅
+hello,general_inquiry,guidance_request,❌
+what's up?,general_inquiry,general_inquiry,✅
+good morning,general_inquiry,general_inquiry,✅
+i need some help,general_inquiry,guidance_request,❌
+can you assist me?,general_inquiry,guidance_request,❌
+help,general_inquiry,guidance_request,❌
+i have a question,general_inquiry,cancel_request,❌
+what can you do?,general_inquiry,guidance_request,❌
+can you help me?,general_inquiry,guidance_request,❌

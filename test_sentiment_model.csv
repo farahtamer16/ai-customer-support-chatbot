@@ -1,0 +1,90 @@
+Sentence,Expected Sentiment,Predicted Sentiment,Match
+I'm extremely happy with the service,positive,positive,✅
+This is absolutely terrible,negative,negative,✅
+Could you assist me with the setup?,neutral,neutral,✅
+"Fantastic product, will buy again!",positive,negative,❌
+I hate how complicated this is,negative,negative,✅
+"Okay, let's continue",neutral,neutral,✅
+Best experience I've ever had,positive,positive,✅
+I am so annoyed by this app crashing,negative,negative,✅
+What's the next step?,neutral,neutral,✅
+Thank you for resolving my issue!,positive,positive,✅
+This is making me very angry,negative,negative,✅
+Can you help me?,neutral,neutral,✅
+Love the update you released!,positive,positive,✅
+I'm fed up with all these bugs,negative,negative,✅
+Need instructions please,neutral,neutral,✅
+The team was very supportive,positive,positive,✅
+System error again? Seriously?,negative,negative,✅
+When should I expect a reply?,neutral,neutral,✅
+Really appreciate the quick turnaround,positive,positive,✅
+Nothing is working as it should,negative,negative,✅
+Thanks for your help!,positive,positive,✅
+This situation is beyond frustrating,negative,negative,✅
+Just checking if my order is confirmed,neutral,neutral,✅
+Thrilled with the results!,positive,positive,✅
+Deeply disappointed by the service,negative,negative,✅
+Can you explain the next steps?,neutral,neutral,✅
+I absolutely love this feature,positive,positive,✅
+Why does it always crash on login?,negative,neutral,❌
+Just wondering about my status update,neutral,neutral,✅
+Grateful for the excellent support,positive,positive,✅
+Really upset about the delays,negative,negative,✅
+Could you please guide me?,neutral,neutral,✅
+Wonderful customer care!,positive,negative,❌
+Another bug? I'm done,negative,neutral,❌
+Can we proceed to the next phase?,neutral,neutral,✅
+I'm delighted with the response,positive,negative,❌
+Still waiting and very annoyed,negative,negative,✅
+What documents are needed?,neutral,positive,❌
+Big thanks to the entire support team!,positive,positive,✅
+Nothing but issues with this app,negative,negative,✅
+Is there anything else needed from me?,neutral,positive,❌
+Super pleased with your service!,positive,positive,✅
+I'm losing patience here,negative,negative,✅
+Could you assist me further?,neutral,neutral,✅
+Ecstatic about the fast reply!,positive,positive,✅
+My problem is still unresolved and it's maddening,negative,negative,✅
+Where do I upload the files?,neutral,neutral,✅
+Very impressed by your responsiveness,positive,positive,✅
+The system is unusable right now,negative,negative,✅
+Any update on my ticket?,neutral,neutral,✅
+Appreciate your time and effort,positive,positive,✅
+Very angry with the constant failures,negative,negative,✅
+Just following up,neutral,neutral,✅
+Amazing work on the new version,positive,positive,✅
+Facing many glitches still,negative,neutral,❌
+What are the next instructions?,neutral,positive,❌
+You saved my day!,positive,positive,✅
+"Terrible experience, very disappointing",negative,negative,✅
+Looking forward to hearing from you,neutral,neutral,✅
+Awesome support experience,positive,positive,✅
+Extremely dissatisfied with the service,negative,positive,❌
+How long does verification take?,neutral,neutral,✅
+"You’ve been very helpful, thanks!",positive,positive,✅
+I keep encountering errors,negative,neutral,❌
+Could you point me to the right link?,neutral,negative,❌
+"Super smooth setup, thank you!",positive,positive,✅
+Crashing non-stop again,negative,neutral,❌
+Just wanted to clarify something,neutral,neutral,✅
+Fabulous customer experience,positive,negative,❌
+Very disappointed today,negative,negative,✅
+Should I expect a confirmation email?,neutral,neutral,✅
+Everything worked perfectly!,positive,positive,✅
+Not satisfied at all,negative,neutral,❌
+Requesting a quick check on my case,neutral,positive,❌
+Loved the way you handled it!,positive,positive,✅
+Terrible first impression,negative,negative,✅
+What’s the processing time?,neutral,negative,❌
+Can't thank you enough,positive,positive,✅
+Beyond annoyed with the delays,negative,neutral,❌
+Could you review my application?,neutral,positive,❌
+Flawless delivery!,positive,positive,✅
+This app is a disaster,negative,negative,✅
+Is there a form I need to fill?,neutral,neutral,✅
+I'm grateful for your patience,positive,positive,✅
+"Still no fix, very angry",negative,negative,✅
+Checking on my appointment,neutral,neutral,✅
+Brilliant assistance!,positive,positive,✅
+Angry about the repeated mistakes,negative,negative,✅
+Can I resubmit the documents?,neutral,neutral,✅
