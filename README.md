@@ -74,6 +74,8 @@ TranslatePy for language translation
 
 Scikit-learn for intent recognition and FAQ matching
 
+Sumit Kumar. (2024). Tech Support Conversations Dataset [Data set]. Kaggle. https://doi.org/10.34740/KAGGLE/DSV/9923955
+
 ### 📬 Contact
 
 If you have any questions or suggestions, feel free to open an issue or reach out!
