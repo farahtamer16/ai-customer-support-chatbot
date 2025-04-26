@@ -32,11 +32,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 ### 4. Set Up Environment Variables
-Create a .env file in the root folder with the following (or use your own OpenRouterAPI key):
-
-OPENROUTER_API_KEY=ssk-or-v1-2536847ab2bdb0228bab12a61eb4265f1ad8a04d8ef50c62f6f67455d6768dbd (temporarily available key)
-SITE_URL=http://localhost:5000
-SITE_NAME=AI Customer Support
+The project contains a .env file with an OpenRouter key available for use temporarily. You can replace the contents of the file with your own .env file using your own key.
 
 ### 5. Run the Flask Application
 
