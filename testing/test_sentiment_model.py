@@ -7,7 +7,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import joblib
 import pandas as pd
 
-# Load your trained sentiment model
+# Load trained sentiment model
 model = joblib.load(os.path.join("backend", "sentiment_model.pkl"))
 
 # Test Samples

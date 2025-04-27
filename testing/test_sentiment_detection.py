@@ -7,7 +7,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from backend.sentiment_analyzer import SentimentAnalyzer
 import pandas as pd
 
-# Initialize your sentiment analyzer
+# Initialize the sentiment analyzer
 sentiment_analyzer = SentimentAnalyzer()
 
 # Test Sentences
