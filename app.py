@@ -99,6 +99,8 @@ def get_ai_response(prompt, sentiment="neutral", history=None):
 # --- Flask Routes ---
 
 @app.route("/")
+session.clear()         
+session["lang"] = "en" 
 def home():
     """Serve the homepage with the chat interface."""
     return render_template("index.html")
