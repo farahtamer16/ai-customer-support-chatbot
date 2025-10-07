@@ -56,6 +56,8 @@ Open it in your web browser.
 
 - Sentiment trend tracking for future personalization (UserProfiles module)
 
+**Read the full project report and evaluation results:** [View Report](./Report.pdf)
+
 ### Future Improvements
 Add persistent database storage for user profiles
 
@@ -75,5 +77,6 @@ TranslatePy for language translation
 Scikit-learn for intent recognition and FAQ matching
 
 Sumit Kumar. (2024). Tech Support Conversations Dataset [Data set]. Kaggle. https://doi.org/10.34740/KAGGLE/DSV/9923955
+
 
 
