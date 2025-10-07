@@ -10,7 +10,7 @@ This intelligent chatbot can:
 
 ---
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 ### 1. Clone the Repository
 
@@ -43,20 +43,20 @@ http://localhost:5000
 
 Open it in your web browser.
 
-### 🌟 Features Overview
+### Features Overview
 💬 Multi-language support (auto translation)
 
-🤖 Adaptive tone replies (empathetic, positive, neutral)
+- Adaptive tone replies (empathetic, positive, neutral)
 
-🔍 Intent recognition for better query understanding
+- Intent recognition for better query understanding
 
-📚 FAQ matching fallback if OpenRouter fails
+- FAQ matching fallback if OpenRouter fails
 
-🔒 Session management using Flask sessions
+- Session management using Flask sessions
 
-📈 Sentiment trend tracking for future personalization (UserProfiles module)
+- Sentiment trend tracking for future personalization (UserProfiles module)
 
-### 🛠 Future Improvements
+### Future Improvements
 Add persistent database storage for user profiles
 
 Fine-tune transformer-based sentiment models
@@ -65,7 +65,7 @@ Implement conversation analytics dashboard
 
 Real-time monitoring for API fallbacks
 
-### 🤝 Acknowledgments
+### Acknowledgments
 OpenRouter.ai (for API integration)
 
 Huggingface and Deepseek models (fallback models)
@@ -76,8 +76,4 @@ Scikit-learn for intent recognition and FAQ matching
 
 Sumit Kumar. (2024). Tech Support Conversations Dataset [Data set]. Kaggle. https://doi.org/10.34740/KAGGLE/DSV/9923955
 
-### 📬 Contact
 
-If you have any questions or suggestions, feel free to open an issue or reach out!
-
-⚠️ Note: Minor warnings related to scikit-learn version differences may appear when loading ML models. These warnings are harmless and do not affect chatbot functionality.
